@@ -2,7 +2,7 @@
 
 ## Setup
 
-Run `composer install`. Next run `./vendor/bin/sail up`.
+Run `composer install`. Next copy the `.env.example` file to `.env`. Next `./vendor/bin/sail artisan key:generate`. Next run `./vendor/bin/sail up`.
 
 To migrate DB tables use `./vendor/bin/sail artisan migrate`.
 
